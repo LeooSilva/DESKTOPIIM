@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="pag4.css">
+</head>
+<body>
+
+    <div class="img-seta">
+        <a href="pag3.html">
+            <img class="seta" src="img/seta-startup.png" alt="Descrição da Seta">
+        </a>
+    </div>
+
+    <div id="container">
+        <h1 class="containerh1">Continue seu cadastro!</h1>
+        <form id="form-cadastro-etapa2">
+            <div class="containerforms">
+                <label for="endereco">Endereço</label> 
+                <input type="text" name="endereco" id="endereco" required>
+
+                <label for="complemento">Complemento</label> 
+                <input type="text" name="complemento" id="complemento">
+
+                <label for="cep">CEP</label> 
+                <input type="text" name="cep" id="cep" placeholder="XXXXX-XXX" required>
+
+                <label for="cpf">CPF/CNPJ</label> 
+                <input type="text" name="cpf" id="cpf" placeholder="XXX.XXX.XXX-XX" required>
+
+                <div class="container-btn">
+                    <button type="submit" class="btn text">Inscrever-se</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="public/cadastro-etapa2.js"></script>
+
+</body>
+</html>
